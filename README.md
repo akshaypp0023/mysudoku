@@ -28,14 +28,15 @@ Make sure ncurses is installed:
 ```bash
 sudo apt install libncurses5-dev libncursesw5-dev
 ---
-📁 Project Structure
+
+## 📁 Project Structure
 mysudoku/
 ├── main.cpp
 ├── sudoku.cpp
 ├── sudoku.h
 └── README.md
 ---
-▶️ Build & Run <-- SECTION 1
+## Build & Run <-- SECTION 1
 
 Compile:
 ```bash
