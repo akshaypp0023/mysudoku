@@ -27,24 +27,26 @@ Make sure ncurses is installed:
 
 ```bash
 sudo apt install libncurses5-dev libncursesw5-dev
+---
 📁 Project Structure
 mysudoku/
 ├── main.cpp
 ├── sudoku.cpp
 ├── sudoku.h
 └── README.md
-
+---
 ▶️ Build & Run <-- SECTION 1
 
 Compile:
 ```bash
 g++ main.cpp sudoku.cpp -lncurses -o sudoku
 
-
+---
 Run:
 
 ```bash
 ./sudoku
+---
 
 🔧 Controls
 Key	Function
@@ -52,13 +54,14 @@ Arrow Keys	Move
 1–9	Insert number
 c	Check Sudoku
 q	Quit
+---
 🖼 Screenshot <-- SECTION 2
 
 
 
 ![Sudoku Screenshot](images/Screenshot1.png)
 
-
+---
 
 Example structure:
 
@@ -69,7 +72,7 @@ mysudoku/
 ├── sudoku.cpp
 ├── sudoku.h
 └── README.md
-
+---
 🚀 Future Improvements
 
 Timer
@@ -77,11 +80,11 @@ Timer
 Mistake highlighting
 
 Difficulty levels
-
+---
 👨‍💻 Author
 
 Akshay P P
-
+---
 📜 License
 
 This project is open source.
