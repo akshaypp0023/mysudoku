@@ -1,91 +1,75 @@
-🧩 Terminal Sudoku Game (C++ + ncurses)
+# 🧩 Terminal Sudoku (C++ + ncurses)
 
-A simple **Sudoku game** built using **C++** and **ncurses** for keyboard-controlled terminal gameplay.  
-You can move with arrow keys, insert numbers, highlight cells, and check if your Sudoku solution is correct.
-
----
-
-🎮 Features
-
-- 9×9 Sudoku board
-- Randomly generated starting numbers
-- Fixed cells shown in **yellow**
-- Player-inserted numbers shown in **cyan**
-- Cursor highlight using **reverse video**
-- `c` key → Check if Sudoku is completed and correct  
-  ✔ Green = correct  
-  ✖ Red = wrong
-- Arrow keys to move
-- `1–9` to enter values
-- `q` to quit
+A colorful, interactive terminal-based Sudoku game built with **C++** and **ncurses**, featuring keyboard navigation, fixed-cell highlighting, and solution checking.
 
 ---
 
-🛠 Requirements
+## 🎮 Features
 
-Make sure ncurses is installed:
+- Arrow-key movement across the Sudoku board  
+- Fixed cells highlighted in **yellow**  
+- User-entered values shown in **cyan**  
+- Press **c** to check if the Sudoku is solved  
+- Press **q** to quit  
+- Randomly generated initial Sudoku numbers  
+- Colorful ncurses interface  
+
+---
+
+## 🛠 Requirements
+
+Install ncurses:
 
 ```bash
 sudo apt install libncurses5-dev libncursesw5-dev
+```
+
 ---
 
 ## 📁 Project Structure
+
+```
 mysudoku/
 ├── main.cpp
 ├── sudoku.cpp
 ├── sudoku.h
+├── images/
+│   └── screenshot.png
 └── README.md
----
-## Build & Run <-- SECTION 1
+```
 
-Compile:
+---
+
+## ▶️ How to Compile
+
 ```bash
 g++ main.cpp sudoku.cpp -lncurses -o sudoku
+```
 
 ---
-Run:
+
+## ▶️ How to Run
 
 ```bash
 ./sudoku
+```
+
 ---
 
-🔧 Controls
-Key	Function
-Arrow Keys	Move
-1–9	Insert number
-c	Check Sudoku
-q	Quit
+## 📝 Notes
+
+- Make sure your terminal supports ncurses colors.  
+- Works on Ubuntu, Debian, Pop!\_OS, and most Linux distros.
+
 ---
-🖼 Screenshot <-- SECTION 2
 
-
+## 📸 Screenshot
 
 ![Sudoku Screenshot](images/Screenshot1.png)
 
 ---
 
-Example structure:
+## 📚 License  
 
-mysudoku/
-├── images/
-│   └── Screenshot1.png
-├── main.cpp
-├── sudoku.cpp
-├── sudoku.h
-└── README.md
----
-🚀 Future Improvements
+MIT License — Feel free to modify and use!
 
-Timer
-
-Mistake highlighting
-
-Difficulty levels
----
-👨‍💻 Author
-
-Akshay P P
----
-📜 License
-
-This project is open source.
