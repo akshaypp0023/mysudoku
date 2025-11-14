@@ -65,7 +65,7 @@ g++ main.cpp sudoku.cpp -lncurses -o sudoku
 
 ## 📸 Screenshot
 
-![Sudoku Screenshot](images/Screenshot1.png)
+![Sudoku Screenshot](images/screenshot.png)
 
 ---
 
